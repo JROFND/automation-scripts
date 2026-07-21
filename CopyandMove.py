@@ -5,9 +5,9 @@ import glob
 import re
 
 # Define source and destination
-source_folder = 'C:/Users/703341565/Downloads'
-destination_folder = r"W:\SHARE2 Pharmacy Department Share\340B\Jeff R\Marshfield\Verity\Operations_Claims"
-pattern = "Verity-*-Claims*.xlsx"
+source_folder = 'C:/Users/'
+destination_folder = r"W:\"
+pattern = "*.xlsx"
 
 # Get today's date
 today = datetime.today().date()
