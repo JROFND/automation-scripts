@@ -8,9 +8,9 @@ import os
 nltk.download('wordnet')
 nltk.download('punkt')
 
-pdf_path = r"W:\SHARE2 Pharmacy Department Share\340B\Jeff R\onbase\LAWSON - NON PO Invoice -  PFIZER INC - 100 - INV  9347944638 - 3-30-2026.pdf"
+pdf_path = r"W:\item.pdf"
 
-output_file = r"W:\SHARE2 Pharmacy Department Share\340B\Jeff R\pdf_synonyms_output.txt"
+output_file = r"W:\item.txt"
 
 results = []
 
