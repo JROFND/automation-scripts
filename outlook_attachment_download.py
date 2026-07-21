@@ -49,9 +49,9 @@ def download_attachments_from_subfolder(subfolder_name, sender_email, save_folde
             continue
 
 # Configuration
-save_folder = r"W:\SHARE2 Pharmacy Department Share\340B\Jeff R\Specialty Pharmacy Tool\Emails"
-target_sender = "GMB-AcctMgmt-Analytics@cardinalhealth.com"
-subfolder_name = "Cardinal"
+save_folder = r"W:\"
+target_sender = "GMB"
+subfolder_name = "NAME"
 
 # Run the function
 download_attachments_from_subfolder(subfolder_name, target_sender, save_folder)
