@@ -8,18 +8,18 @@ import pytz
 # Template
 
 
-# def sanitize_filename(filename):
-#     """Remove invalid characters from filenames."""
-#     return re.sub(r'[\\/*?:"<>|]', "_", filename)
+def sanitize_filename(filename):
+     """Remove invalid characters from filenames."""
+     return re.sub(r'[\\/*?:"<>|]', "_", filename)
 
-# def download_attachments_from_subfolder(subfolder_name, sender_email, save_folder, days_back=7, timezone="US/Central"):
-#     """Download attachments from a specific Outlook subfolder filtered by sender and date."""
-#     # Ensure save folder exists
+def download_attachments_from_subfolder(subfolder_name, sender_email, save_folder, days_back=7, timezone="US/Central"):
+     """Download attachments from a specific Outlook subfolder filtered by sender and date."""
+    # Ensure save folder exists
 
 
 # Configuration
-save_folder = r"W:\SHARE2 Pharmacy Department Share\340B\Jeff R\Specialty Pharmacy Tool\Emails"
-target_sender = "GMB-AcctMgmt-Analytics@cardinalhealth.com"
+save_folder = r""
+target_sender = ""
 
 # Set timezone (e.g., Central Time)
 central = pytz.timezone("US/Central")
